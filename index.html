@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prog with tailwind</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link href="./dist/build.css" rel="stylesheet">
+    <link href="./src/input.css" rel="stylesheet">
+</head>
+<body class="bg-red-50">
+
+
+      <div class="palstine">
+      <div>
+        وإنه لجهاد نصر أو استشهاد
+        </div>
+      <span></span>
+      <span></span>
+      <span></span>
+
+      </div>
+
+
+      <div class="header ">
+        <div class="container  ">
+          <div class="headerContent flex items-center justify-between m-2 h-16 "> 
+            <div class="logo capitalize text-best text-3xl font-Playwrite ">
+              elma<span class="text-blue-950">gd</span>
+            </div>
+            <div class="inputs hidden relative w-1/2 border rounded-es-xl rounded-se-xl h-8 md:flex items-center justify-center overflow-hidden  ">
+              <input type="search" name="" id="" placeholder="search" class="pl-6  w-3/4  h-full focus:outline-none ">
+              <i class="searchicon fas fa-search  block absolute left-1 top-1/2  text-sm text-gry "></i>
+              <button class="searchbtn hover:opacity-80 flex items-center justify-center text-center bg-red-700   h-full    font-bold flex-grow text-white text-2xl capitalize">search</button>
+            </div>
+            <div class="adding ">
+            <i class="fa-regular fa-user  px-2 cursor-pointer accnt"></i>
+            <i class="fa-regular fa-heart px-2 cursor-pointer hrt lkelogo"></i>
+            <i class="fa-solid fa-cart-shopping px-2 cursor-pointer mrktlogo hover:text-second " ><span class=" bg-best text-white  numr hidden ">0</span></i>
+          </div> 
+          </div>
+        </div>
+      </div>
+
+      <div class="mrktorderpage fixed bg-white top-0 right-0 h-full w-3/4 md:w-1/2 z-50  overflow-y-scroll hidden">
+        <i class="fa-solid fa-xmark mark m-6  cursor-pointer text-xl font-bold flex justify-end z-40 cancelmrktpge"></i>
+        <h2 class="text-2xl uppercase pl-4 font-bold absolute  top-5 left-4 text-second font-Playwrite">ca<span class="text-best">rt</span> </h2>
+        <div class="contentmrkpge mb-4 mt-3 p-2 ">
+          your cart is empty
+      </div>
+      <hr>
+      <div class="totalprce m-2 flex justify-between items-center ">
+        <span class="capitalize font-bold ">total:</span>
+        <span class="font-bold text-yellow-600">$00.00</span>
+      </div>
+      </div>
+
+
+      <div class="loginorsignup fixed w-full h-full top-0 left-0 z-20 hidden ">
+        <i class="fa-solid fa-xmark mark absolute  cursor-pointer text-xl cancel  z-40"></i> 
+        <div class="logContent w-11/12  md:w-1/2 m-auto z-20 bg-white">
+            <div class="login cont    ">
+            <div class="lgcontent  p-5 border rounded ">
+            <h2 class="font-bold uppercase text-2xl">login</h2>
+            <p class="mt-1 text-gry text-xs">login if your are a new customer</p>
+            <form action="" class="mt-3">
+                <div class="email">
+                    <label for="" class="block capitalize text-gry">email address</label>
+                    <input type="email" name="" id="" class="focus:outline-none border rounded p-1 w-full mt-1" placeholder="example@mail.com" >
+                </div>
+                <div class="password relative">
+                    <label for="" class="block capitalize text-gry">passwrod</label>
+                    <input type="password" name="" id="" class="focus:outline-none border rounded p-1 w-full mt-1 " placeholder="example@mail.com">
+                    <i class="fa-solid fa-eye-slash absolute   right-3 text-gry cursor-pointer top-1/2 translate-y-1/2 ie"></i>
+                </div>
+                <div class="forgetpass flex justify-between mt-2">
+                    <input type="checkbox" name="" id="rem">
+                    <label for="rem" class="flex-1 ml-2">remember me</label>
+                    <a href="#" class="text-best hover:underline capitalize font-bold">forget password?</a>
+                </div>
+            </form>
+            <button class="w-full p-1 text-center text-white uppercase font-bold bg-best rounded hover:opacity-80 mb-5 mt-3">login</button>
+            <hr class="text-xl font-bold">
+            <p class="overlin uppercase mb-5 text-gry bg-red-50">or login in with</p>
+            <div class="other flex flex-wrap  justify-between mt-2">
+                <a href="" class="text-bold text-white uppercase p-1 bg-second basis-6/12 text-center rounded mr-1 hover:opacity-80">facebook</a>
+                <a href="" class="text-bold text-white uppercase p-1 bg-second flex-grow  text-center rounded  hover:opacity-80">google</a>
+            </div>
+            <p class="mt-3 text-gry capitalize text-center">
+                dont have an account?
+                <a href="" class="snup text-best font-bold hover:underline chge">sign up now</a>
+            </p>
+            </div>
+            </div>
+            <div class="signUp cont  hidden  ">
+            <div class="lgcontent  p-5 border rounded ">
+            <h2 class="font-bold uppercase text-2xl text-black">sign up</h2>
+            <p class="mt-1 text-gry text-xs">sign up if you have login before  </p>
+            <form action="" class="mt-3">
+                <div class="email">
+                    <label for="" class="block capitalize text-gry">email address</label>
+                    <input type="email" name="" id="" class="focus:outline-none border rounded p-1 w-full mt-1" placeholder="example@mail.com" >
+                </div>
+                <div class="password relative">
+                    <label for="" class="block capitalize text-gry">password</label>
+                    <input type="password" name="" id="" class="focus:outline-none border rounded p-1 w-full mt-1" placeholder="enter your password">
+                    <i class="fa-solid fa-eye-slash absolute   right-3 text-gry cursor-pointer top-1/2 translate-y-1/2 ie"></i> 
+                </div>
+                <div class="password relative">
+                    <label for="" class="block capitalize text-gry">certain password</label>
+                    <input type="password" name="" id="" class="focus:outline-none border rounded p-1 w-full mt-1" placeholder="enter your password">
+                    <i class="fa-solid fa-eye-slash absolute   right-3 text-gry cursor-pointer top-1/2 translate-y-1/2 ie"></i> 
+                </div>
+                
+            </form>
+            <button class="w-full p-1 text-center text-white uppercase font-bold bg-best rounded hover:opacity-80 mb-5 mt-3">sign up</button>
+            <hr class="text-xl font-bold">
+            
+            <p class="mt-3 text-gry capitalize text-center">
+                do you  have an account?
+                <a href="" class="lgn text-best font-bold hover:underline  chge">login now</a>
+            </p>
+
+            </div>
+            </div> 
+        </div> 
+    </div>
+
+
+
+      <div class="message hidden fixed inset-0  justify-center items-center z-50 bg-gryoffblack ">
+        <div class="box  bg-white h-14 w-96 flex items-center justify-center capitalize text-xl font-bold text-second rounded-sm">
+          thank you  i apperciate it &#128522
+        </div>
+      </div>
+
+      <div class="typespage ">
+
+      <div class="official ">
+
+      
+      <div class="nav bg-blue-950  relative z-10 ">
+        <div class="container">
+          <div class="navContent flex items-center justify-between h-10 relative"> 
+          <div class="toggle flex items-center text-white bg-best h-full px-2 cursor-pointer">
+            <i class="fa-solid fa-bars-staggered   togglebar block md:hidden"></i>
+            <h5 class="pl-3  text-sm md:text-2xl capitalize  cato">all catagories</h5> 
+           
+          </div>
+          <div class="links text-white     "> 
+            <a href="" class="px-2 capitalize md:hover:opacity-75 w-fit linkclk  " >home</a>
+            <a href="" class="px-2 capitalize  md:hover:opacity-75   " >shop</a>
+            <a href="" class="px-2 capitalize  md:hover:opacity-75  " >about</a>
+            <a href="" class="px-2 capitalize  md:hover:opacity-75  " >contact</a>
+          
+          </div>
+          <div class="login">
+            <a class="text-white capitalize hover:opacity-80 oplg" href="">login</a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      <div class="sitecontent1  ">
+      
+      <div class="hm stc hidden   min-h-screen showright"> 
+
+      <div class="landingpage bg-banner-pattern h-96  bg-cover  relative mb-8 " > 
+        <div class="landingContent  w-auto "> 
+          <h3 class=" text-4xl  md:text-5xl capitalize  ">best collection for  home <span class="text-best"></span> </h3>
+          <p class="text-gry pt-2 text-xs md:text-xl"> Elevate your home with our exquisite collection of modern decor. Enjoy special prices on all items this month!</p>
+          
+      </div>
+      </div> 
+
+      <div class="helpSectors " >
+        <div class="container">
+          <div class="helpContent flex flex-wrap">
+            <div class="box border border-best  rounded-sm px-5 py-2 flex items-center justify-between hover:bg-best hover:text-white ">
+              <i class="fa-solid fa-cart-shopping text-second text-3xl"></i> 
+              <div class="text pl-3 line flex-1 text-center">
+                <h3 class="font-bold capitalize ">free shoping</h3>
+                <p class="text-gry">order over $200</p>
+              </div>
+            </div>
+            <div class="box border border-best  rounded-sm px-5 py-2 flex items-center justify-between  hover:bg-best hover:text-white">
+              <i class="fa-regular fa-pen-to-square text-second text-3xl"></i>
+              <div class="text pl-3 line flex-1 text-center">
+                <h3 class="font-bold capitalize ">making refresh</h3>
+                <p class="text-gry">writing order </p>
+              </div>
+            </div>
+            <div class="box border border-best  rounded-sm px-5 py-2 flex items-center justify-between  hover:bg-best hover:text-white">
+              <i class="fa-solid fa-bullseye text-second text-3xl"></i>
+              <div class="text pl-3 line flex-1 text-center">
+                <h3 class="font-bold capitalize ">demading  budget</h3>
+                <p class="text-gry">how much ?</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+
+      <div class="shopCatogry my-5  " >
+        <div class="container">
+          <h3 class="capitalize text-2xl mb-5 ">shop by category</h3>
+          <div class="shopContent flex flex-wrap">
+            <div class="box relative m-1">
+              <img src="./imgs/category-1.jpg" alt="" class="w-full" >
+              <p class="absolute  inset-0  flex justify-center items-center text-xl text-white font-bold bg-gryoffblack ">bedroom</p>
+            </div>
+            <div class="box relative m-1">
+              <img src="./imgs/category-5.jpg" alt="" class="w-full">
+              <p class="absolute  inset-0  flex justify-center items-center text-xl text-white font-bold bg-gryoffblack ">sofa</p>
+            </div>
+            <div class="box relative m-1">
+              <img src="./imgs/category-3.jpg" alt="" class="w-full">
+              <p class="absolute  inset-0  flex justify-center items-center text-xl text-white font-bold bg-gryoffblack ">office</p>
+            </div>
+            <div class="box relative m-1">
+              <img src="./imgs/category-4.jpg" alt="" class="w-full">
+              <p class="absolute  inset-0  flex justify-center items-center text-xl text-white font-bold bg-gryoffblack ">outdoor</p>
+            </div>
+            <div class="box relative m-1">
+              <img src="./imgs/category-2.jpg" alt="" class="w-full">
+              <p class="absolute  inset-0  flex justify-center items-center text-xl text-white font-bold bg-gryoffblack ">mattress</p>
+            </div>
+            <div class="box relative m-1">
+              <img src="./imgs/category-6.jpg" alt="" class="w-full">
+              <p class="absolute  inset-0  flex justify-center items-center text-xl text-white font-bold bg-gryoffblack ">dinings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrival " >
+        <div class="container">
+          <h3 class="capitalize text-2xl mb-5">top new arrival</h3>
+              <div class="arrivalContentent flex flex-wrap">
+                    <div class="box m-1 shadow-md rounded-sm overflow-hidden" onclick="addtocart(1)" >
+                      <a class="image relative cursor-pointer"  >
+                        <img src="./imgs/product10.jpg" alt="">
+                        <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                          <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                          <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                        </div>
+                      </a>
+                      <div class="text pl-2 mt-2">
+                        <h3 class=" capitalize font-bold">guyer chair</h3>
+                        <div class="price ">
+                          <span class="text-best font-bold">$45.00</span> 
+                          <del class="text-gry">$85.00</del> 
+                        </div>
+                        <div class="rate">
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <span class="text-gry">(md)</span>
+                        </div>
+                      </div>
+                      <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm" >add to cart</button>
+                    </div>
+                    <div class="box m-1 shadow-md rounded-sm overflow-hidden" onclick="addtocart(2)" >
+                      <a class="image relative cursor-pointer" >
+                        <img src="./imgs/product6.jpg" alt="">
+                        <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                          <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                          <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                        </div>
+                      </a>
+                      <div class="text pl-2 mt-2">
+                        <h3 class=" capitalize font-bold">guyer chair</h3>
+                        <div class="price ">
+                          <span class="text-best font-bold">$45.00 </span> 
+                          <del class="text-gry">$85.00</del> 
+                        </div>
+                        <div class="rate">
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <span class="text-gry">(md)</span>
+                        </div>
+                      </div>
+                      <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                    </div>
+                    <div class="box m-1 shadow-md rounded-sm overflow-hidden" onclick="addtocart(3)" >
+                      <a class="image relative cursor-pointer " >
+                        <img src="./imgs/product7.jpg" alt="">
+                        <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                          <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                          <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                        </div>
+                      </a>
+                      <div class="text pl-2 mt-2">
+                        <h3 class=" capitalize font-bold">guyer chair</h3>
+                        <div class="price ">
+                          <span class="text-best font-bold">$45.00 </span> 
+                          <del class="text-gry">$85.00</del> 
+                        </div>
+                        <div class="rate">
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <span class="text-gry">(md)</span>
+                        </div>
+                      </div>
+                      <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                    </div>
+                    <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(4)">
+                      <a class="image relative cursor-pointer" >
+                        <img src="./imgs/product8.jpg" alt="">
+                        <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                          <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                          <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                        </div>
+                      </a>
+                      <div class="text pl-2 mt-2">
+                        <h3 class=" capitalize font-bold">guyer chair</h3>
+                        <div class="price ">
+                          <span class="text-best font-bold">$45.00 </span> 
+                          <del class="text-gry">$85.00</del> 
+                        </div>
+                        <div class="rate">
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <span class="text-gry">(md)</span>
+                        </div>
+                      </div>
+                      <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                    </div>
+                    <div class="box m-1 shadow-md rounded-sm overflow-hidden" onclick="addtocart(5)">
+                      <a class="image relative cursor-pointer " >
+                        <img src="./imgs/product5.jpg" alt="">
+                        <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                          <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                          <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                        </div>
+                      </a>
+                      <div class="text pl-2 mt-2">
+                        <h3 class=" capitalize font-bold">guyer chair</h3>
+                        <div class="price ">
+                          <span class="text-best font-bold">$45.00 </span> 
+                          <del class="text-gry">$85.00</del> 
+                        </div>
+                        <div class="rate">
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <span class="text-gry">(md)</span>
+                        </div>
+                      </div>
+                      <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                    </div>
+                    <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(6)" >
+                      <a class="image relative cursor-pointer " >
+                        <img src="./imgs/product9.jpg" alt="">
+                        <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                          <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                          <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                        </div>
+                      </a>
+                      <div class="text pl-2 mt-2">
+                        <h3 class=" capitalize font-bold">guyer chair</h3>
+                        <div class="price ">
+                          <span class="text-best font-bold">$45.00 </span> 
+                          <del class="text-gry">$85.00</del> 
+                        </div>
+                        <div class="rate">
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <i class="fa-solid fa-star text-gld " ></i>
+                          <span class="text-gry">(md)</span>
+                        </div>
+                      </div>
+                      <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                    </div>
+              </div>
+      </div>
+      </div>
+
+      <div class="addvertise  w-full my-4">
+        <div class="image  mt-10">
+          <img src="./imgs/offer.jpg" alt="" class="">
+        </div> 
+      </div>
+
+      <div class="arrival arvl" >
+      <div class="container">
+        <h3 class="capitalize text-2xl mb-5">top new arrival</h3>
+      <div class="arrivalContentent flex flex-wrap">
+        <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(7)">
+          <a class="image relative cursor-pointer">
+            <img src="./imgs/product1.jpg" alt="">
+            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+            </div>
+          </a>
+          <div class="text pl-2 mt-2">
+            <h3 class=" capitalize font-bold">guyer chair</h3>
+            <div class="price ">
+              <span class="text-best font-bold">$45.00 </span> 
+              <del class="text-gry">$85.00</del> 
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <span class="text-gry">(md)</span>
+            </div>
+          </div>
+          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+        </div>
+        <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(8)">
+          <a class="image relative cursor-pointer">
+            <img src="./imgs/product11.jpg" alt="">
+            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+            </div>
+          </a>
+          <div class="text pl-2 mt-2">
+            <h3 class=" capitalize font-bold">guyer chair</h3>
+            <div class="price ">
+              <span class="text-best font-bold">$45.00 </span> 
+              <del class="text-gry">$85.00</del> 
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <span class="text-gry">(md)</span>
+            </div>
+          </div>
+          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+        </div>
+        <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(9)">
+          <a class="image relative cursor-pointer">
+            <img src="./imgs/product2.jpg" alt="">
+            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+            </div>
+          </a>
+          <div class="text pl-2 mt-2">
+            <h3 class=" capitalize font-bold">guyer chair</h3>
+            <div class="price ">
+              <span class="text-best font-bold">$45.00 </span> 
+              <del class="text-gry">$85.00</del> 
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <span class="text-gry">(md)</span>
+            </div>
+          </div>
+          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+        </div>
+        <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(10)">
+          <a class="image relative cursor-pointer">
+            <img src="./imgs/product4.jpg" alt="">
+            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+            </div>
+          </a>
+          <div class="text pl-2 mt-2">
+            <h3 class=" capitalize font-bold">guyer chair</h3>
+            <div class="price ">
+              <span class="text-best font-bold">$45.00 </span> 
+              <del class="text-gry">$85.00</del> 
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <span class="text-gry">(md)</span>
+            </div>
+          </div>
+          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+        </div>
+        <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(11)">
+          <a class="image relative cursor-pointer">
+            <img src="./imgs/category-4.jpg" alt="">
+            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+            </div>
+          </a>
+          <div class="text pl-2 mt-2">
+            <h3 class=" capitalize font-bold">guyer chair</h3>
+            <div class="price ">
+              <span class="text-best font-bold">$45.00 </span> 
+              <del class="text-gry">$85.00</del> 
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <span class="text-gry">(md)</span>
+            </div>
+          </div>
+          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+        </div>
+        <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(12)">
+          <a class="image relative cursor-pointer" >
+            <img src="./imgs/category-3.jpg" alt="">
+            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+            </div>
+          </a>
+          <div class="text pl-2 mt-2">
+            <h3 class=" capitalize font-bold">guyer chair</h3>
+            <div class="price ">
+              <span class="text-best font-bold">$45.00 </span> 
+              <del class="text-gry">$85.00</del> 
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <i class="fa-solid fa-star text-gld " ></i>
+              <span class="text-gry">(md)</span>
+            </div>
+          </div>
+          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+        </div>
+      </div>
+      </div>
+      </div>
+        
+
+      </div>
+
+      <div class="shop stc hidden  min-h-screen">
+
+          <div class="path mt-3">
+            <div class="container">
+                <div class="pathcontent">
+                    <i class="fa-solid fa-house text-best"></i>
+                    <span class="uppercase font-bold text-gry">> shop</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="page mt-5 ">
+            <div class="container">
+                <div class="pageContent flex flex-wrap ">
+                <div class="leftSide  ">
+                    <div class="cate  p-1 rounded-sm bg-white ">
+                        <h3 class="uppercase font-bold text-xl">categories</h3> 
+                        <div class="flex items-center justify-between me-4 mt-2  p-1">
+                            <input checked id="red1" type="checkbox" value="" class="w-3 h-4 text-red-700 bg-red-600  cursor-pointer">
+                            <label for="red1" class="ms-2 text-sm font-medium   flex-1 text-gry cursor-pointer">outdoor</label>
+                            <span class="text-gry">(15)</span>
+                        </div>
+                        <div class="flex items-center justify-between me-4 mt-2 p-1 ">
+                            <input checked id="red2" type="checkbox" value="" class="w-3 h-4 text-red-700 bg-red-600 cursor-pointer ">
+                            <label for="red2" class="ms-2 text-sm font-medium  cursor-pointer flex-1 text-gry">office</label>
+                            <span class="text-gry">(15)</span>
+                        </div>
+                        <div class="flex items-center justify-between me-4 mt-2 p-1 ">
+                            <input checked id="red3" type="checkbox" value="" class="w-3 h-4 text-red-700 bg-red-600 cursor-pointer">
+                            <label for="red3" class="ms-2 text-sm font-medium cursor-pointer  flex-1 text-gry">sala</label>
+                            <span class="text-gry">(15)</span>
+                        </div>
+                        <div class="flex items-center justify-between me-4 mt-2 p-1 ">
+                            <input checked id="red4" type="checkbox" value="" class="w-3 h-4 text-red-700 bg-red-600 cursor-pointer">
+                            <label for="red4" class="ms-2 text-sm font-medium cursor-pointer  flex-1 text-gry">bedroom</label>
+                            <span class="text-gry">(15)</span>
+                        </div>
+
+                    </div>
+                    <div class="cate  p-1 rounded-sm bg-white mt-2 ">
+                        <h3 class="uppercase font-bold text-xl">brands</h3> 
+                        <div class="flex items-center justify-between me-4 mt-2  p-1 box">
+                            <input  id="red11" type="checkbox" value="" class="w-3 h-4 text-red-700 bg-red-600  cursor-pointer">
+                            <label for="red11" class="ms-2 text-sm font-medium   flex-1 text-gry cursor-pointer">domink</label>
+                            <span class="text-gry">(15)</span>
+                        </div>
+                        <div class="flex items-center justify-between me-4 mt-2 p-1 ">
+                            <input  id="red21" type="checkbox" value="" class="w-3 h-4 text-red-700 bg-red-600 cursor-pointer ">
+                            <label for="red21" class="ms-2 text-sm font-medium  cursor-pointer flex-1 text-gry">carf</label>
+                            <span class="text-gry">(15)</span>
+                        </div>
+                        <div class="flex items-center justify-between me-4 mt-2 p-1 ">
+                            <input  id="red31" type="checkbox" value="" class="w-3 h-4 text-red-700 bg-red-600 cursor-pointer">
+                            <label for="red31" class="ms-2 text-sm font-medium cursor-pointer  flex-1 text-gry">maxing</label>
+                            <span class="text-gry">(15)</span>
+                        </div>
+                        <div class="flex items-center justify-between me-4 mt-2 p-1 ">
+                            <input checked id="red41" type="checkbox" value="" class="w-3 h-4 text-red-700 bg-red-600 cursor-pointer">
+                            <label for="red41" class="ms-2 text-sm font-medium cursor-pointer  flex-1 text-gry">ernest</label>
+                            <span class="text-gry">(15)</span>
+                        </div>
+
+                    </div>
+                    <div class="price p-1 rounded-sm bg-white mt-2 ">
+                        <h3 class="uppercase font-bold ">price</h3>
+                        <div class="box flex justify-between items-center mt-2 " >
+                            <input type="text" name="" id="" placeholder="min" class="  text-center border focus:outline-none w-2/5">
+                            <span class="p-1">-</span>
+                            <input type="text" name="" id="" placeholder="max" class="text-center border focus:outline-none w-2/5">
+
+                        </div>
+                    </div>
+                    <div class="sze  p-1 rounded-sm bg-white mt-2">
+                      <h3 class="uppercase font-bold">size</h3>
+                      <span class="inline-block border text-gry  mt-3 cursor-pointer text-xl pr-1 pl-1 w-8 h-8 uppercase text-center " >xs</span>
+                      <span class="inline-block border text-gry  mt-3 cursor-pointer text-xl pr-1 pl-1  w-8 h-8 uppercase ml-1 text-center"  >s</span>
+                      <span class="inline-block border text-gry  mt-3 cursor-pointer text-xl pr-1 pl-1  w-8 h-8 uppercase ml-1  text-center szeprod"  >l</span>
+                      <span class="inline-block border text-gry  mt-3 cursor-pointer text-xl pr-1 pl-1  w-8 h-8 uppercase ml-1 text-center" >m</span>
+                      <span class="inline-block border text-gry  mt-3 cursor-pointer text-xl pr-1 pl-1  w-8 h-8 uppercase ml-1 text-center" >xl</span>
+                    </div>
+                    <div class="color p-1 rounded-sm bg-white mt-2">
+                        <h3 class="uppercase font-bold">color</h3>
+                        <div class="colorcontent  mt-4">
+                            <button class="bg-best w-6 h-6  bord"></button>
+                            <button class="bg-green-700 w-6 h-6  "></button>
+                            <button class="bg-black w-6 h-6  "></button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="rightSide flex-1 p-2 ml-2 text-tr border md:bg-white  mt-16 md:mt-0">
+                    <div class="header flex justify-between items-center p-1 mb-4">
+                        <select name="books" id="" class="focus:outline-none p-1  cursor-pointer border border-gryof4"> 
+                                <option value="0">default sorting</option>
+                                <option value="1">book1</option>
+                                <option value="2">book2</option>
+                                <option value="3">book3</option>
+                            
+                        </select>
+                        <div class="right">
+                            <i class="fas fa-th cursor-pointer bg-best  text-white p-1 "></i>
+                            <i class="fas fa-list p-1 cursor-pointer"></i>
+                        </div>
+                    </div>
+                    <div class="arrivalContentent flex flex-wrap">
+                        <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(13)" >
+                          <a class="image relative cursor-pointer"  >
+                            <img src="./imgs/product10.jpg" alt="">
+                            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                            </div>
+                          </a>
+                          <div class="text pl-2 mt-2">
+                            <h3 class=" capitalize font-bold">guyer chair</h3>
+                            <div class="price ">
+                              <span class="text-best font-bold">$45.00 </span> 
+                              <del class="text-gry">$85.00</del> 
+                            </div>
+                            <div class="rate">
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <span class="text-gry">(md)</span>
+                            </div>
+                          </div>
+                          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm" >add to cart</button>
+                        </div>
+                        <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(14)" >
+                          <a class="image relative cursor-pointer" >
+                            <img src="./imgs/product6.jpg" alt="">
+                            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                            </div>
+                          </a>
+                          <div class="text pl-2 mt-2">
+                            <h3 class=" capitalize font-bold">guyer chair</h3>
+                            <div class="price ">
+                              <span class="text-best font-bold">$45.00 </span> 
+                              <del class="text-gry">$85.00</del> 
+                            </div>
+                            <div class="rate">
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <span class="text-gry">(md)</span>
+                            </div>
+                          </div>
+                          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                        </div>
+                        <div class="box m-1 shadow-md rounded-sm overflow-hidden" onclick="addtocart(15)">
+                          <a class="image relative cursor-pointer " >
+                            <img src="./imgs/product7.jpg" alt="">
+                            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                            </div>
+                          </a>
+                          <div class="text pl-2 mt-2">
+                            <h3 class=" capitalize font-bold">guyer chair</h3>
+                            <div class="price ">
+                              <span class="text-best font-bold">$45.00 </span> 
+                              <del class="text-gry">$85.00</del> 
+                            </div>
+                            <div class="rate">
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <span class="text-gry">(md)</span>
+                            </div>
+                          </div>
+                          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                        </div>
+                        <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(16)">
+                          <a class="image relative cursor-pointer" >
+                            <img src="./imgs/product8.jpg" alt="">
+                            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                            </div>
+                          </a>
+                          <div class="text pl-2 mt-2">
+                            <h3 class=" capitalize font-bold">guyer chair</h3>
+                            <div class="price ">
+                              <span class="text-best font-bold">$45.00 </span> 
+                              <del class="text-gry">$85.00</del> 
+                            </div>
+                            <div class="rate">
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <span class="text-gry">(md)</span>
+                            </div>
+                          </div>
+                          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                        </div>
+                        <div class="box m-1 shadow-md rounded-sm overflow-hidden"onclick="addtocart(17)">
+                          <a class="image relative cursor-pointer " >
+                            <img src="./imgs/product5.jpg" alt="">
+                            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                            </div>
+                          </a>
+                          <div class="text pl-2 mt-2">
+                            <h3 class=" capitalize font-bold">guyer chair</h3>
+                            <div class="price ">
+                              <span class="text-best font-bold">$45.00 </span> 
+                              <del class="text-gry">$85.00</del> 
+                            </div>
+                            <div class="rate">
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <span class="text-gry">(md)</span>
+                            </div>
+                          </div>
+                          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                        </div>
+                        <div class="box m-1 shadow-md rounded-sm overflow-hidden" onclick="addtocart(18)">
+                          <a class="image relative cursor-pointer " >
+                            <img src="./imgs/product9.jpg" alt="">
+                            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                            </div>
+                          </a>
+                          <div class="text pl-2 mt-2">
+                            <h3 class=" capitalize font-bold">guyer chair</h3>
+                            <div class="price ">
+                              <span class="text-best font-bold">$45.00 </span> 
+                              <del class="text-gry">$85.00</del> 
+                            </div>
+                            <div class="rate">
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <span class="text-gry">(md)</span>
+                            </div>
+                          </div>
+                          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="about stc hidden min-h-screen " >
+          <div class="container"> 
+              <div class="path mt-3">
+                <div class="container">
+                    <div class="pathcontent">
+                        <i class="fa-solid fa-house text-best"></i>
+                        <span class="uppercase font-bold text-gry">> account </span> 
+                    </div>
+                </div>
+            </div>
+            <div class="accountContent flex flex-wrap mt-4">
+              <div class="leftcont basis-2/5 ">
+                <div class="nameandimge flex justify-around items-center  p-1 mb-4 border" >
+                  <img src="./imgs/category-3.jpg" class="w-10 h-10 mr-3  md:ml-2 rounded-full   ">
+                  <div class="text uppercase text-xs  flex-1 ">
+                    <h3 class="font-bold ">amgad ashraf</h3>
+                  </div>
+                </div>
+                <hr>
+                <div class="botmleft  border">
+                <div class="btlftbox properties1 mt-4 mb-4 flex  ">
+                  <i class="fa-solid fa-cart-shopping px-2 cursor-pointer ml-2 mt-1" ></i>
+                  <div class="box">
+                    <div class="capitalize mb-1 cursor-pointer active">manage account</div>
+                    <div class="capitalize mb-1 cursor-pointer">profile information</div>
+                    <div class="capitalize mb-1 cursor-pointer">manage address </div>
+                    <div class="capitalize mb-1 cursor-pointer">change password</div>
+                  </div>
+                </div>
+                <hr>
+                <div class=" btlftbox properties mt-4 mb-4 flex  ">
+                  <i class="fa-regular fa-sun sun px-2 cursor-pointer ml-2 mt-2" ></i>
+                  <div class="box">
+                    <div class="capitalize mb-1 cursor-pointer">setting</div>
+                    <div class="capitalize mb-1 cursor-pointer">analytics </div>
+                    <div class="capitalize mb-1 cursor-pointer">system logs </div>
+                    <div class="capitalize mb-1 cursor-pointer">scurity </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="btlftbox properties mt-4 mb-4 flex  ">
+                  <i class="fa-solid fa-cart-shopping px-2 cursor-pointer ml-2 mt-2" ></i>
+                  <div class="box">
+                    <div class="capitalize mb-1 cursor-pointer">performance</div> 
+                    <div class="capitalize mb-1 cursor-pointer">backup and restore</div> 
+                  </div>
+                </div>
+                <hr>
+                <div class="like font-bold capitalize mt-4 mb-4 cursor-pointer ">
+                  <i class="fa-regular fa-heart px-2 cursor-pointer ml-2 "></i>
+                  my wihlist
+                </div>
+                <hr>
+                <div class="logout font-bold capitalize my-4 cursor-pointer">
+                  <i class="fa-regular fa-sun  px-2 ml-2 mt-1"></i>
+                  logout
+                </div>
+              </div>
+              </div>
+              <div class="rightcont flex-1">
+              <div class="rt1 rghtbox border ml-3   hidden showright">
+                <h2 class="font-bold capitalize m-4 text-xl">
+                  manage account
+                </h2>
+                <div class="rightcontent mt-4 ml-4 flex flex-wrap">
+                    <div class="box  basis-1/2 mt-2 ">
+                      <label for="" class="text-gry capitalize block ml-1">first name</label>
+                      <input type="text" name="" id="" placeholder="admin" class="p-1 mt-1 border rounded w-11/12 focus:outline-none">
+                    </div>
+                    <div class="box basis-1/2  mt-2 ">
+                      <label for="" class="text-gry capitalize block ml-1">last name</label>
+                      <input type="text" name="" id="" placeholder="admin" class="p-1 mt-1 border rounded w-11/12 focus:outline-none">
+                    </div>
+                    <div class="box basis-1/2  mt-2">
+                      <label for="" class="text-gry capitalize block ml-1">birth day</label>
+                      <input type="month" name="" id="" placeholder="admin" class="p-1 mt-1 border rounded w-11/12 focus:outline-none">
+                    </div>
+                    <div class="box basis-1/2 mt-2">
+                      <label for="" class="text-gry capitalize block ml-1">gender</label>
+                      <input type="text" name="" id="" placeholder="movie" class="p-1 mt-1 border rounded w-11/12 focus:outline-none">
+                    </div>
+                    <div class="box basis-1/2 mt-2">
+                      <label for="" class="text-gry capitalize block ml-1">email</label>
+                      <input type="email" name="" id="" placeholder="example@.gmail.com" class="p-1 mt-1 border rounded w-11/12 focus:outline-none">
+                    </div>
+                    <div class="box basis-1/2 mt-2">
+                      <label for="" class="text-gry capitalize block ml-1">phone number</label>
+                      <input type="number" name="" id="" placeholder="+181 452 658" class="p-1 mt-1 border rounded w-11/12 focus:outline-none">
+                    </div>
+                  
+                </div>
+                <button class="font-bold capitalize bg-best text-white text-sm p-1 rounded m-3 ml-4 hover:opacity-80">
+                  save change
+                </button>
+              </div>
+              <div class="rt2 rghtbox border ml-3   hidden ">
+                <h2 class="font-bold capitalize m-4 text-xl">
+                  profile information
+                </h2>
+                <hr>
+                <div class="rightcontent mt-4 ml-4 flex flex-wrap">
+                  <p class="text-gry capitalize text-sm md:text-inherit">
+                    سلام عليك 
+                    <br>
+                    i am amgad ashraf ,i am a front end developer in addition studing electrical engineering 
+                    i do as well i can  to make muslim people happy and decreasing unfair life with palstine 
+                    those people make us wondring of their stability
+                  </p>
+                </div>
+                
+              </div>
+              <div class="rt3 rghtbox border ml-3  hidden">
+                <h2 class="font-bold capitalize m-4 text-xl">
+                  manage address
+                </h2>
+                <div class="rightcontent mt-4 ml-4 flex flex-wrap">
+                  
+                  
+                </div>
+              
+              </div>
+              <div class="rt4 rghtbox border ml-3  hidden">
+                <h2 class="font-bold capitalize m-4 text-xl">
+                  change password
+                </h2>
+                <div class="rightcontent mt-4 ml-4 flex flex-wrap">
+                  
+                  
+                </div>
+              
+              </div>
+            </div>
+            </div> 
+          </div>
+      </div>
+
+      <div class="cnt stc hidden  min-h-screen  ">
+        <div class="container">
+          <div class="contactContentcnt flex flex-col flex-wrap mt-8 ">
+          <div class="headcontactcontent capitalize text-xl m-2 basis-full ">
+              you can reach us by :
+          </div>
+          <ul class="flex flex-col basis-full">
+            <a href="https://amgadashraff.github.io/portfolio/" target="_blank"  class="m-2 bg-best p-1 text-xl capitalize  text-white  hover:opacity-80 flex justify-between">
+              <span class="inline-block">my portfolio</span>
+              <i class="fa-solid fa-arrow-right text-xl cursor-pointer mr-2"></i>
+            </a>
+            <a href="https://www.facebook.com/share/gTj9fvWCcVdG2XWa/?mibextid=qi2Omg" target="_blank" class="m-2 bg-best p-1 text-xl capitalize  text-white  hover:opacity-80 flex justify-between">
+              <span class="inline-block">facebook</span>
+              <i class="fa-solid fa-arrow-right text-xl cursor-pointer mr-2"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/amgad-ashraf-60423b26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="m-2 bg-best p-1 text-xl capitalize  text-white  hover:opacity-80 flex justify-between">
+              <span class="inline-block">linkedin</span>
+              <i class="fa-solid fa-arrow-right text-xl cursor-pointer mr-2"></i>
+            </a>
+            
+            
+            
+            
+            
+            <a ></a>
+            <a ></a>
+          </ul>
+        </div>  
+      </div>
+      </div>
+
+    </div>
+
+    
+
+
+    <div class="contact mt-10 " >
+      <div class="container">
+        <div class="contactContent md:flex flex-wrap">
+          <div class="box left ">
+            <h3 class="text-second   text-2xl mb-4 font-bold  font-Playwrite">
+              <span class="text-best capitalize">elma</span>gd
+            </h3>
+            <p class="text-gry mb-2 text-sm">We tailor our services to meet your unique needs and budget.</p>
+            <div class="icons">
+              <a href="https://www.facebook.com/share/gTj9fvWCcVdG2XWa/?mibextid=qi2Omg" target="_blank" class="m-2 text-sm text-gry hover:text-second cursor-pointer">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://wa.me/qr/JRZUKBX4GZIOA1" target="_blank" class="m-2 text-sm text-gry hover:text-second cursor-pointer">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/amgad-ashraf-60423b26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="m-2 text-sm text-gry hover:text-second cursor-pointer">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <div class="box cenleft  "> 
+              <a href="" class="text-gry block capitalize mb-2">solutions</a>
+              <a href="" class="text-gry block capitalize mb-2">markting</a>
+              <a href="" class="text-gry block capitalize mb-2">anlatics</a>
+              <a href="" class="text-gry block capitalize mb-2">commerce</a>
+              <a href="" class="text-gry block capitalize mb-2">heights</a> 
+          </div>
+          <div class="box cenright">
+            <a href="" class="text-gry block capitalize mb-2">demad</a>
+              <a href="" class="text-gry block capitalize mb-2">delegation</a>
+              <a href="" class="text-gry block capitalize mb-2">sports</a>
+              <a href="" class="text-gry block capitalize mb-2">swiming</a>
+              <a href="" class="text-gry block capitalize mb-2">lengths</a> 
+          </div>
+          <div class="box right">
+            <a href="" class="text-gry block capitalize mb-2">firaction</a>
+              <a href="" class="text-gry block capitalize mb-2">goldining</a>
+              <a href="" class="text-gry block capitalize mb-2">weaking</a>
+              <a href="" class="text-gry block capitalize mb-2">beding</a>
+              <a href="" class="text-gry block capitalize mb-2">using</a> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer bg-second mb-0">
+      <div class="rights text-white text-center p-2 text-sm ">
+        Make In © 2024, With Love by <span class="capitalize">amgad ashraf</span> 
+      </div>
+    </div>
+
+      </div>
+
+      <div class="local hidden ">
+        <div class="sitecontent2  fixed top-0 left-0 bg-white w-full h-full overflow-y-auto">
+          
+          <div class="path mt-3">
+            <div class="container">
+              <div class="box flex justify-between items-center">
+                <div class="pathcontent">
+                    <i class="fa-solid fa-house text-best"></i>
+                    <span class="uppercase font-bold text-gry">> <span class="text-best">shop</span>> italian shape sofa </span>
+                </div>
+                <i class="fa-solid fa-arrow-right text-2xl cursor-pointer bkwrdarw"></i> 
+              </div>
+            </div>
+        </div>
+
+        <div class="product mt-5 mb-5">
+            <div class="container">
+                <div class="productContent flex flex-wrap">
+                <div class="left w-full md:basis-1/2 rounded overflow-hidden p-2 ">
+                        <img src="./imgs/product6.jpg" alt="" class="w-full backimg ">
+                        <div class="chooseimg mt-2 flex flex-wrap border ">
+                            <img src="./imgs/product6.jpg" alt="1" class="w-24 h-20 m-1 cursor-pointer chossen">
+                            <img src="./imgs/product7.jpg" alt="2" class="w-24 h-20 m-1 cursor-pointer"> 
+                            <img src="./imgs/product8.jpg" alt="3" class="w-24 h-20 m-1 cursor-pointer">
+                            <img src="./imgs/product4.jpg" alt="4" class="w-24 h-20 m-1 cursor-pointer">
+                            
+                        </div>
+                </div>
+                
+                <div class="chse right1 flex-1 ml-3 hidden chosed">
+                    <h2 class="font-bold uppercase text-2xl ">itailian shape sofa</h2>
+                    <div class="icons mt-1 mb1">
+                        <i class="fa-solid fa-star text-gld "></i>
+                        <i class="fa-solid fa-star text-gld "></i>
+                        <i class="fa-solid fa-star text-gld "></i>
+                        <i class="fa-solid fa-star text-gld "></i> 
+                        <span class="ml-2 text-gry">(5MK Requirment)</span>
+                    </div>
+                    <div class="info mt-1">
+                        <span class="font-bold capitalize ">availablity:</span>
+                        <span class="text-second font-bold ml-1 ">in stack</span>
+                    </div>
+                    <div class="info mt-1">
+                        <span class="font-bold capitalize ">brand:</span>
+                        <span class="text-gry ml-1">apex</span>
+                    </div>
+                    <div class="info mt-1">
+                        <span class="font-bold capitalize ">catogry:</span>
+                        <span class="text-gry ml-1">sofa</span>
+                    </div>
+                    <div class="info mt-1">
+                        <span class="font-bold capitalize ">sqv:</span>
+                        <span class="text-gry ml-1">b15vort</span>
+                    </div>
+                  
+                    <div class="info mt-3">
+                        <span class="font-bold capitalize text-best text-2xl">$45.00</span>
+                        <span class="text-gry ml-1"><del>$60.00</del></span>
+                    </div>
+                    <p class="mt-3 text-gry">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsum dolor ratione pariatur,In mollitia voluptatem incidunt quis a et porro? Sed.</p>
+                    <div class="sze mt-3">
+                        <h3 class="uppercase text-gry">size</h3>
+                        <span class="inline-block border text-gry  mt-3 cursor-pointer text-xl pr-1 pl-1 w-8 h-8 uppercase text-center " >xs</span>
+                        <span class="inline-block border text-gry  mt-3 cursor-pointer text-xl pr-1 pl-1  w-8 h-8 uppercase ml-1 text-center"  >s</span>
+                        <span class="inline-block border text-gry  mt-3 cursor-pointer text-xl pr-1 pl-1  w-8 h-8 uppercase ml-1  text-center szeprod"  >l</span>
+                        <span class="inline-block border text-gry  mt-3 cursor-pointer text-xl pr-1 pl-1  w-8 h-8 uppercase ml-1 text-center" >m</span>
+                        <span class="inline-block border text-gry  mt-3 cursor-pointer text-xl pr-1 pl-1  w-8 h-8 uppercase ml-1 text-center" >xl</span>
+                    </div>
+                    <div class="color p-1 rounded-sm mt-3">
+                        <h3 class="uppercase text-gry">color</h3>
+                        <div class="colorcontent  mt-4">
+                            <button class="bg-best w-6 h-6  bord"></button>
+                            <button class="bg-green-700 w-6 h-6  "></button>
+                            <button class="bg-black w-6 h-6  "></button>
+                        </div>
+                    </div>
+                    <div class="quantity p-1 rounded-sm mt-3">
+                        <h3 class="uppercase text-gry">quantity</h3>
+                        <div class="content flex  items-center mt-3">
+                            <div class="minus p-2 border w-8 h-8 text-gry flex  items-center justify-center cursor-pointer hover:bg-white hover:text-black text-xl" id="minus">-</div>
+                            <div class="number p-2 border w-8 h-8  flex  items-center justify-center">1</div>
+                            <div class="pluse p-2 border w-8 h-8 text-gry flex  items-center justify-center cursor-pointer hover:bg-white  hover:text-black text-xl" id="pluse">+</div>
+                        </div>
+                    </div>
+                    <div class="addingtocardorlike flex mt-8 mb-3">
+                        <div class="box bg-best text-white p-1 pl-2 pr-2 uppercase rounded mr-2 cursor-pointer ">
+                            <i class="fa-solid fa-cart-shopping  cursor-pointer" ></i>
+                            <span>add to card</span>
+                        </div>
+                        <div class="box  p-1 pl-2 pr-2  uppercase rounded ml-1 border  text-gry bg-white">
+                            <i class="fa-regular fa-heart  cursor-pointer hrt  " ></i> 
+                            <span>i like </span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="icons mt-5">
+                        <a href="https://www.facebook.com/share/gTj9fvWCcVdG2XWa/?mibextid=qi2Omg" target="_blank" class="  m-2 text-sm text-gry hover:text-second cursor-pointer">
+                          <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.me/qr/JRZUKBX4GZIOA1" target="_blank" class="  m-2 text-sm text-gry hover:text-second cursor-pointer">
+                          <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="" target="_blank" class="  m-2 text-sm text-gry hover:text-second cursor-pointer">
+                          <i class="fa-brands fa-twitter"></i>
+                        </a>
+                      
+                      </div>
+                </div>
+                <div class="chse right2 hidden">second page</div>
+                </div>
+                <div class="prodetails   mt-4">
+                    <h2 class="capitalize font-bold mb-2">product details</h2>
+                    <hr>
+                    <div class="content">
+                        <p class="mt-4  md:w-1/2 text-gry">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis saepe eos veniam minima similique adipisci cupiditate a nisi quod quisquam voluptates temporibus explicabo, culpa atque est obcaecati quam reprehenderit laboriosam?
+                        </p>
+                        <p class="mt-4 md:w-1/2 text-gry">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis saepe eos veniam minima similique adipisci cupiditate a nisi quod quisquam voluptates temporibus explicabo, culpa atque est obcaecati quam reprehenderit laboriosam?
+                        </p>
+                        <p class="mt-4 md:w-1/2 text-gry">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis saepe eos veniam minima similique adipisci cupiditate a nisi quod quisquam voluptates temporibus explicabo, culpa atque est obcaecati quam reprehenderit laboriosam?
+                        </p>
+                        <div class="table mt-3 ">
+                            <div class="capitalize">color</div>
+                            <div>black,red,white</div>
+                            <div class="capitalize">material</div>
+                            <div>artificial leather</div>
+                            <div class="capitalize">weight</div>
+                            <div>slag</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relatedproducts mt-6" >
+                    <h2 class="uppercase font-bold text-2xl">related products</h2>
+                    <div class="arrivalContentent flex flex-wrap">
+                        <div class="box m-1 shadow-md rounded-sm overflow-hidden">
+                          <div class="image relative cursor-pointer">
+                            <img src="./imgs/product10.jpg" alt="">
+                            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                            </div>
+                          </div>
+                          <div class="text pl-2 mt-2">
+                            <h3 class=" capitalize font-bold">guyer chair</h3>
+                            <div class="price ">
+                              <span class="text-best font-bold">$45.00 </span> 
+                              <del class="text-gry">$85.00</del> 
+                            </div>
+                            <div class="rate">
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <span class="text-gry">(md)</span>
+                            </div>
+                          </div>
+                          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                        </div>
+                        <div class="box m-1 shadow-md rounded-sm overflow-hidden">
+                          <div class="image relative cursor-pointer">
+                            <img src="./imgs/product6.jpg" alt="">
+                            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                            </div>
+                          </div>
+                          <div class="text pl-2 mt-2">
+                            <h3 class=" capitalize font-bold">guyer chair</h3>
+                            <div class="price ">
+                              <span class="text-best font-bold">$45.00 </span> 
+                              <del class="text-gry">$85.00</del> 
+                            </div>
+                            <div class="rate">
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <span class="text-gry">(md)</span>
+                            </div>
+                          </div>
+                          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                        </div>
+                        <div class="box m-1 shadow-md rounded-sm overflow-hidden">
+                          <div class="image relative cursor-pointer ">
+                            <img src="./imgs/product7.jpg" alt="">
+                            <div class="icns absolute inset-0 hidden items-center justify-center bg-gryoffblack ">
+                              <i class="fa-regular fa-heart  cursor-pointer m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i>
+                              <i class=" fas fa-search cursor-pointer  m-2 bg-best rounded-full p-2 text-white hover:opacity-80"></i> 
+                            </div>
+                          </div>
+                          <div class="text pl-2 mt-2">
+                            <h3 class=" capitalize font-bold">guyer chair</h3>
+                            <div class="price ">
+                              <span class="text-best font-bold">$45.00 </span> 
+                              <del class="text-gry">$85.00</del> 
+                            </div>
+                            <div class="rate">
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <i class="fa-solid fa-star text-gld " ></i>
+                              <span class="text-gry">(md)</span>
+                            </div>
+                          </div>
+                          <button class="bg-best text-white text-center w-full mt-3 capitalize hover:opacity-80 rounded-sm">add to cart</button>
+                        </div>
+                        
+                      </div>
+                </div>
+            </div>  
+        </div>
+        </div>
+      </div>
+
+    </div>
+
+
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script src="./dist/ja.js"></script>
+  </div>
+</body>
+</html>
